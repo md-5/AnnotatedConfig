@@ -15,6 +15,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>bukkit-repo</id>
+            <name>Bukkit Repo</name>
+            <url>http://repo.bukkit.org/content/groups/public</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -30,7 +38,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.2.3-R0.2-SNAPSHOT</version>
+            <version>1.6.4-R2.0</version>
         </dependency>
     </dependencies>
 </project>
